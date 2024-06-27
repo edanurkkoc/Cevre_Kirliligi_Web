@@ -1,0 +1,42 @@
+
+/* Google Fonts İncluding area */
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+/* Playwrite New Zealand */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Playwrite+NZ:wght@100..400&display=swap');
+/* Playfair Display */
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+NZ:wght@100..400&display=swap');
+/* Dancing Script */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+NZ:wght@100..400&display=swap');
+/* Ubuntu Sans Mono */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+NZ:wght@100..400&family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&display=swap');
+/* arvo */
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Dancing+Script:wght@400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+NZ:wght@100..400&family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&display=swap');
+
+/* 
+
+?Google fonts usage area 
+
+*Regular type :
+
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Arvo", serif;
+ 
+*Italic type: 
+
+  font-family: "Playwrite NZ", cursive;
+
+  font-family: "Dancing Script", cursive;
+
+
+  font-family: "Playfair Display", serif;
+
+}
+
+*Monospace type : 
+
+  font-family: "Ubuntu Sans Mono", monospace;
+ 
+*/
+

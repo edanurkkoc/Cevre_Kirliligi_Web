@@ -1,0 +1,33 @@
+.read-more {
+  display: inline-block;
+  padding: 10px 30px;
+  background-color: #333;
+  color: #fff;
+  border-radius: 5px;
+  border: solid #fff 1px;
+  margin-top: 25px;
+  opacity: 0.8;
+  transition: 0.2s all;
+  text-decoration: none;
+}
+.devam {
+  top: 200px;
+  left: 600px;
+  font-family: "Ubuntu Sans Mono", monospace;
+  font: size 2.6rem;
+  text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.4);
+  position: absolute;
+  transform: translateY(-20px);
+  transition: all 0.8s;
+  opacity: 0;
+}
+.devam.active {
+  top: 200px;
+  left: 600px;
+  font-family: "Ubuntu Sans Mono", monospace;
+  font: size 2.6rem;
+  text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.4);
+  position: absolute;
+  transform: translateY(250px);
+  opacity: 1;
+}

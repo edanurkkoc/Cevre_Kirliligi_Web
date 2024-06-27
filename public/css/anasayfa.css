@@ -1,0 +1,12 @@
+.anasayfa {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.anasayfa .wrapper {
+  width: 100%;
+  max-width: 1366px;
+  display: flex;
+  padding: 0 10px;
+}
