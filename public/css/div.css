@@ -6,19 +6,20 @@
 
 .header h1 {
   top: 100px;
-  left: 500px;
+  left: 300px;
   font-family: "Playwrite NZ", cursive;
-  font-size: 4rem;
-  color: blanchedalmond;
+  font-size: 3rem;
+  color: rgb(211, 157, 77);
   text-shadow: 0px 0px 3px rgba(0, 0, 0.5), 0px 0px 5px rgba(0, 0, 0.4),
     0px 0px 10px rgba(0, 0, 0.6);
 }
 .header h3 {
-  top: 200px;
+  top: 225px;
   left: 600px;
   font-family: "Playwrite NZ", cursive;
   font: size 2.6rem;
-  text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.4);
+  color: rgb(235, 233, 232);
+  /* text-shadow: 0px 0px 3px rgba(230, 243, 236, 0.993); */
 }
 /* Scroll animation */
 .header {

@@ -1,6 +1,98 @@
-.footer {
-  padding-top: 100px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.footer .sidebar2 {
-  max-height: 100px;
+
+/* body {
+  line-height: 1.5;
+  font-family: "Poppins", sans-serif;
+} */
+.container {
+  max-width: 1170px;
+  margin: auto;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+ul {
+  list-style: none;
+}
+
+.footer {
+  background-color: rgb(8, 94, 36);
+  padding: 0 15px;
+}
+.col {
+  width: 25%;
+  padding: 10px 15px;
+}
+.col ul li a {
+  background-color: rgb(5, 53, 3);
+}
+.col h4 {
+  font-size: 18px;
+  color: white;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
+}
+.col h4::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: #1e82e9;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+.col ul li:not(:last-child) {
+  margin-bottom: 10px;
+}
+.col ul li a {
+  font-size: 16px;
+  /* harf renkleri */
+  text-transform: capitalize;
+  text-decoration: none;
+  font-weight: 300;
+  color: rgb(253, 232, 237);
+  display: block;
+  transition: all 0.3s ease;
+}
+.col ul li a:hover {
+  color: rgb(92, 53, 3);
+  padding-left: 8px;
+}
+.col .social-links a {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: gray;
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: rgb(28, 102, 6);
+  transition: all 0.5s ease;
+}
+.col .social-links a:hover {
+  color: rgb(7, 82, 7);
+  background-color: rgb(154, 134, 201);
+}
+
+/* Responsive */
+
+@media (max-width: 767px) {
+  .col {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 574px) {
+  .col {
+    width: 100%;
+  }
 }

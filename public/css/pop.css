@@ -1,5 +1,8 @@
 /* Popup (arka plan) */
-.modal {
+.modal1,
+.modal2,
+.modal3,
+.modal4 {
   display: none; /* Varsayılan olarak gizlidir */
   position: fixed; /* Yerinde kal */
   z-index: 1; /* Üstte */
@@ -13,7 +16,10 @@
 }
 
 /* İçerik / Kutu */
-.modal-content {
+.modal1 .modal-content,
+.modal2 .modal-content,
+.modal3 .modal-content,
+.modal4 .modal-content {
   text-align: center;
   background-color: #fefefe;
   margin: auto; /* % 15 üstten ve ortalanmış */
@@ -23,21 +29,59 @@
 }
 
 /* Kapat Düğmesi */
-.close {
+.close1,
+.close2,
+.close3,
+.close4 {
   color: #aaa;
   float: right;
   font-size: 28px;
   font-weight: bold;
 }
 
-.close:hover,
-.close:focus {
+.close1:hover,
+.close1:focus {
   color: black;
   text-decoration: none;
   cursor: pointer;
 }
-
-.modal .modal-content .ilk img {
+.close2:hover,
+.close2:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.close3:hover,
+.close3:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.close4:hover,
+.close4:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.modal1 .modal-content .ilk img {
+  /* background-image: url(https://lh6.googleusercontent.com/proxy/SjlOjKB5Gx3OYr-fDAvLgVNnEEbJansx2LdWxPVW9YQItiezBSHxLby81gSbxx7Tpnbdzh-HLE7JPnKE5XThKg); */
+  width: 75%;
+  /* height: 100px; */
+  background-color: orange;
+}
+.modal2 .modal-content .ilk img {
+  /* background-image: url(https://lh6.googleusercontent.com/proxy/SjlOjKB5Gx3OYr-fDAvLgVNnEEbJansx2LdWxPVW9YQItiezBSHxLby81gSbxx7Tpnbdzh-HLE7JPnKE5XThKg); */
+  width: 75%;
+  /* height: 100px; */
+  background-color: orange;
+}
+.modal3 .modal-content .ilk img {
+  /* background-image: url(https://lh6.googleusercontent.com/proxy/SjlOjKB5Gx3OYr-fDAvLgVNnEEbJansx2LdWxPVW9YQItiezBSHxLby81gSbxx7Tpnbdzh-HLE7JPnKE5XThKg); */
+  width: 75%;
+  /* height: 100px; */
+  background-color: orange;
+}
+.modal4 .modal-content .ilk img {
   /* background-image: url(https://lh6.googleusercontent.com/proxy/SjlOjKB5Gx3OYr-fDAvLgVNnEEbJansx2LdWxPVW9YQItiezBSHxLby81gSbxx7Tpnbdzh-HLE7JPnKE5XThKg); */
   width: 75%;
   /* height: 100px; */

@@ -1,17 +1,19 @@
-.sidebar1 {
+.sidebar {
   flex: 20%;
-  padding: 0 5px;
+  padding: 10px 15px;
+}
+.sidebar ul {
+  display: block;
+  background-color: orange;
 }
 
-.sidebar1 .area,
-.sidebar2 .area {
+.sidebar .area {
   padding: 10px;
   border: 1px solid rgba(0, 0, 0, 0.3);
   border-radius: 10px;
   margin-bottom: 30px;
 }
-.sidebar1 h3,
-.sidebar2 h3 {
+.sidebar h3 {
   width: 100%;
   margin-bottom: 10px;
   font-family: "Playwrite NZ", cursive;
@@ -19,8 +21,7 @@
   justify-content: center;
   position: relative;
 }
-.sidebar1 h3::after,
-.sidebar2 h3::after {
+.sidebar h3::after {
   content: "";
   width: 50%;
   height: 2px;
@@ -28,57 +29,73 @@
   position: absolute;
   bottom: 0;
 }
-.sidebar1 img,
-.sidebar2 img {
+.sidebar img {
   padding: 5px;
   border-radius: 15px;
 }
-.sidebar1 .yazilar,
-.sidebar2 .yazilar {
+.sidebar .yazilar {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
+  /* en alttaki kutudan çizgiye kadar */
+  padding-bottom: 50px;
 }
-.sidebar1 .yazilar span,
-.sidebar2 .yazilar span {
-  display: block;
-  width: calc(50% - 10px);
+.sidebar .yazilar ul li a {
+  font-size: 16px;
+  text-transform: capitalize;
+  /* width: calc(50% - 10px); */
+  display: inline-block;
   font-family: "Josefin Sans", sans-serif;
-  background-color: rgba(0, 0, 0, 0.05);
-  padding: 2px;
+  background-color: white;
+  /* padding: 2px; */
+  background-color: rgb(117, 50, 26);
   border-radius: 3px;
   cursor: pointer;
+  padding-right: 20px;
 }
-.sidebar2 a {
+.sidebar a {
   font-family: "Josefin Sans", sans-serif;
   display: block;
-  padding: 10px;
+  /* padding: 10px; */
   margin-bottom: 5px;
-  background-color: rgba(21, 148, 48, 0.03);
+  background-color: white;
 }
-.sidebar1 .area .yazilar a {
+.sidebar .area .yazilar a {
   width: 100%;
   font-family: "Josefin Sans", sans-serif;
   display: block;
-  padding: 10px;
-  margin-left: 20px;
+  /* padding: 10px; */
+  margin-left: 10px;
   margin-bottom: 5px;
-  background-color: orange;
+
   /* background-color: rgba(21, 148, 48, 0.03); */
 }
-.sidebar1 a:nth-child(2n + 1),
-.sidebar2 a:nth-child(2n + 1) {
+/* .sidebar a:nth-child(2n + 1)  {
   background-color: rgba(13, 70, 32, 0.08);
-}
+} */
 /*  Scroll Animation*/
-.sidebar1 .area,
-.sidebar2 .area {
+.sidebar .area {
   opacity: 0;
   transition: all 0.5s;
+  margin-bottom: 150px;
 }
-.sidebar1 .area.active,
-.sidebar2 .area.active {
+.sidebar .area.active {
   opacity: 1;
 }
 /* sidebar2 */
+.sidebar ul li a {
+  transition: all 0.3s ease;
+  font-family: "Josefin Sans", sans-serif;
+  display: block;
+  padding-block: 10px;
+  /* padding-inline: 10px; */
+  background-color: white;
+}
+
+.sidebar ul li a:hover {
+  color: bisque;
+  padding-block: 30px;
+  overflow: hidden;
+  /* padding-inline: 30px; */
+}
