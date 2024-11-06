@@ -5,7 +5,7 @@
   justify-content: center;
   flex-wrap: wrap;
   font-family: "Josefin Sans", sans-serif;
-  background-color: #fff;
+  background-color: #c5d8d0;
 }
 
 .topbar .wrapper {
@@ -31,8 +31,28 @@
   height: 100%;
   display: flex;
   align-items: center;
+  text-align: center;
   justify-content: space-evenly;
 }
+.topbar .center a{
+width: 25%;
+height: 75%;
+text-align: center;
+align-items: center;
+padding-top: 5px;
+background-color: rgb(14, 97, 61);
+border-radius: 30%;
+}
+.topbar .center a:hover{
+  width: 25%;
+  height: 75%;
+  text-align: center;
+  align-items: center;
+  padding-top: 5px;
+background-color: rgb(46, 160, 111);
+  
+  
+  }
 
 .topbar .right span img {
   width: 40px;

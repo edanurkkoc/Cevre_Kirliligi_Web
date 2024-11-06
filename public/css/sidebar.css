@@ -12,6 +12,10 @@
   border: 1px solid rgba(0, 0, 0, 0.3);
   border-radius: 10px;
   margin-bottom: 30px;
+  
+    background-color: rgb(161, 130, 91);
+  
+  
 }
 .sidebar h3 {
   width: 100%;

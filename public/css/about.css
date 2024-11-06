@@ -2,10 +2,19 @@
     padding: 0px 20px;
 }
 
+.header img{
+width: 100%;
+height: 35rem;
+}
+.header h3{
+    font-size: x-large;
+    color: rgb(247, 247, 254);
 
+}
 
 .about .wrapper{
     width: 100%;
+    height: 100%;
     max-width: 1366px;
     margin: 50px auto;
     padding: 10px;
@@ -18,7 +27,6 @@
 }
 
 .about .wrapper .text{
-    flex:2;
     padding: 5px;
 }
 .about .wrapper .text h1{
@@ -27,6 +35,8 @@
 .about .wrapper .text p{
     font-family: "Josefin Sans", sans-serif;
     padding: 10px;
+    text-align:left;
+    margin-top: 10px;
     font-size: 1.2rem;
     line-height: 25px;
 }
@@ -34,7 +44,8 @@
     margin-left: 20px;
 }
 .about .wrapper .photo{
-    flex:2;
+    width: 100%;
+    height: 100%;
     /* img büyürken satırı taşırmasın */
     overflow: hidden;
     border-radius: 10px;
@@ -42,6 +53,7 @@
 .about .wrapper img{
     border-radius: 10px;
     cursor: pointer;
+   
     transition: all 0.5s;
 }
 .about .wrapper img:hover{
@@ -77,3 +89,37 @@
 .about .wrapper.active .photo{
     transform: translateX(0px);
 }
+/* responsive */
+@media(max-width:768px){
+    body{
+        width: 10rem;
+    }
+    .topbar{
+        width: 60rem;
+    }
+    .header #video,
+    .topbar,
+    .footer,
+    .anasayfa{
+        width: 60rem;
+      }
+    .header h1
+   {
+   left: 30px;
+   font-size:x-large;
+    }
+    .header h3
+    {
+    left: 30px;
+    margin-top: 100px;
+     }
+    .header .devam{
+      margin-left: -30rem;
+    }
+    .wrapper .sidebar{
+       display:none;
+    }
+ 
+   
+  
+  }

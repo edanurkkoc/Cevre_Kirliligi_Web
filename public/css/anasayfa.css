@@ -10,3 +10,110 @@
   display: flex;
   padding: 0 10px;
 }
+
+/* responsive */
+/* @media(max-width:768px){
+  .header h1
+ {
+ left: 30px;
+  }
+  .header h3
+  {
+  left: 30px;
+  margin-top: 100px;
+   }
+  .header .devam{
+    margin-left: -30rem;
+
+    
+  }
+  .wrapper .sidebar{
+    opacity: 0;
+  }
+.wrapper .posts .post{
+  width: 45rem;
+}  
+
+}
+@media(max-width:450px){
+ 
+  .header h1,
+  .header h3
+ {
+ left: 30px;
+  }
+ 
+  .header .devam{
+    margin-left: -30rem;
+
+    
+  }
+  .header #video{
+    width: 90rem;
+  }
+  .topbar{
+    width: 90rem;
+  }
+  
+  .footer{
+    width: 90rem;
+  }
+.wrapper .sidebar{
+  opacity: 0;
+}
+.wrapper .posts .post{
+  width: 45rem;
+}  
+
+}
+@media(max-width:1440px){
+  body{
+width: 1440px;
+  }
+  .header h1
+ {
+ left: 30px;
+  }
+  .header h3
+  {
+  left: 30px;
+  margin-top: 100px;
+   }
+  .header .devam{
+    margin-left: -30rem;
+
+    
+  }
+  .wrapper .sidebar{
+    opacity: 1;
+  }
+  .wrapper .posts {
+    flex: 2;
+
+  }
+.wrapper .posts .post{
+  width: 50rem;
+}  
+.sidebar .yazilar{
+  padding-left: 150px;
+}
+
+}
+@media(max-width:350px){
+  body{
+    width: 350px;
+  }
+  .sidebar .yazilar{
+    margin-right: 100px;
+  }
+  .topbar{
+    width: 80rem;
+  }
+  
+  .footer{
+    width: 80rem;
+  }
+  .header #video{
+    width: 80rem;
+  }
+} */
